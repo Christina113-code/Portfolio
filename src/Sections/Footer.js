@@ -33,8 +33,8 @@ const Footer = () => {
           </div>
         
           <div className="social-info">
-            <a href="https://github.com/Christina113-code"><img src={github} alt="github"/></a>
-            <a href="https://www.linkedin.com/in/christina-murphy-8775bb19b/"><img src={linkedin} alt="linkedin"/></a>
+            <a href="https://github.com/Christina113-code" target="_blank"rel="noreferrer"><img src={github} alt="github"/></a>
+            <a href="https://www.linkedin.com/in/christina-murphy-8775bb19b/"target="_blank"rel="noreferrer"><img src={linkedin} alt="linkedin"/></a>
 
           </div>
 
