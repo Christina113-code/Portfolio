@@ -8,30 +8,33 @@ const SkillsSection = () => {
   return (
     <div className="skills-section section">
       <h2>My Skills</h2>
-      <div className="skills-item">
-        <div className="circle">
-          <img className="skill-img"src={react_logo} alt="react-logo" />
+      <div className="skills-container">
+        <div className="skills-item">
+          <div className="circle">
+            <img className="skill-img"src={react_logo} alt="react-logo" />
+          </div>
+          <p>React</p>
         </div>
-        <p>React</p>
-      </div>
-      <div className="skills-item">
-        <div className="circle">
-          <img src={html} alt="react-logo" />
+        <div className="skills-item">
+          <div className="circle">
+            <img src={html} alt="react-logo" />
+          </div>
+          <p>HTML</p>
         </div>
-        <p>HTML</p>
-      </div>
-      <div className="skills-item">
-        <div className="circle">
-          <img src={css} alt="react-logo" />
+        <div className="skills-item">
+          <div className="circle">
+            <img src={css} alt="react-logo" />
+          </div>
+          <p>CSS</p>
         </div>
-        <p>CSS</p>
-      </div>
-      <div className="skills-item">
-        <div className="circle">
-          <img src={js} alt="react-logo" />
+        <div className="skills-item">
+          <div className="circle">
+            <img src={js} alt="react-logo" />
+          </div>
+          <p>Javascript</p>
         </div>
-        <p>Javascript</p>
       </div>
+     
     </div>
     
   )

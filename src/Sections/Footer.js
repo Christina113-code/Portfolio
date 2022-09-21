@@ -2,33 +2,44 @@ import React from "react";
 import location from "../imgs/location.svg";
 import email from "../imgs/email.svg";
 import phone from "../imgs/phone.svg";
-// import github from "../imgs/github.svg";
+import github from "../imgs/github.svg";
 import linkedin from "../imgs/linkedin.svg";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <a href="/">
-        <h1>Christina</h1>
-      </a>
-      <span>
-        <img src={location} alt="location" />
-        New Rochelle, NY
-      </span>
-      <span>
-        <img src={email} alt="location" />
-        christinajun113@gmail.com
-      </span>
-      <span>
-        <img src={phone} alt="location" />
-        +1 914 (888) 6770
-      </span>
-      <div className="link-container">
-        {/* <a href="/"><img src={github} alt="github"/></a> */}
-        <a href="/"><img src={linkedin} alt="linkedin"/></a>
+
+             <div className="contact-info">
+              <h2>Contact Info</h2>
+            <span>
+              <img src={location} alt="location" id="location" />
+              <p>New Rochelle, NY</p>
+            </span>
+            <span>
+              <img src={phone} alt="location" id="location" />
+              <p>(914) 888-6770</p>
+            </span>
+            <span>
+              <img src={email} alt="location" id="location" />
+              <p>christinajun113@gmail.com</p>
+            </span>
+          </div>
+          <div className="footer-link-container">
+            <a href="/">Home</a>
+            <a href="/">Skills</a>
+            <a href="/">About Me</a>
+            <a href="/">Portfolio</a>
+            <a href="/">Contact Me</a>
+          </div>
+        
+          <div className="social-info">
+            <a href="https://github.com/Christina113-code"><img src={github} alt="github"/></a>
+            <a href="https://www.linkedin.com/in/christina-murphy-8775bb19b/"><img src={linkedin} alt="linkedin"/></a>
+
+          </div>
 
       </div>
-    </div>
+    
   );
 };
 

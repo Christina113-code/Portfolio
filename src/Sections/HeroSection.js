@@ -6,10 +6,13 @@ const HeroSection = () => {
   return (
     <div className="hero-section section">
     <img id="hero-img1"alt="girl coding"src={heroimg2}/>
+    <div className="hero-text">
     <h1>Hello, I'm Christina</h1>
     <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
     </p>
     <Button text="See Projects"/>
+    </div>
+    
     </div>
   )
 }

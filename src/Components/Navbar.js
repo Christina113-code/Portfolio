@@ -6,6 +6,7 @@ import email from "../imgs/email.svg";
 import phone from "../imgs/phone.svg";
 import github from "../imgs/github.svg";
 import linkedin from "../imgs/linkedin.svg";
+import Button from './Button';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -51,6 +52,7 @@ const Navbar = () => {
           <a id="logo" className="navbar-img" href="/">
             Christina
           </a>
+          <Button primary={true} text="Resume"/>
           <img
             id="menu"
             className="navbar-img"

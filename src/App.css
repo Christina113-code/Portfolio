@@ -10,7 +10,7 @@
   --clr-ltst:white;
   --clr-ntrl:#f8f9fa;
   --fs-lg:3.125rem;
-  --fs-m: 2rem;
+  --fs-m: 2.4rem;
   --fs-sm:.938rem;
   --section-padding:1.5rem;
 }
@@ -60,8 +60,8 @@ nav{
 }
 a{
   text-decoration: none;
-  
 }
+
 
 #logo{
   font-weight:bolder;
@@ -84,14 +84,16 @@ a{
   background-color: var(--clr-ltst);
   right:0;
 }
-
+.nav-btn{
+  display:none;
+}
 .top-sidenav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding:1.8rem;
 }
-.sidenav span{
+.sidenav span, .footer span{
   display: flex;
   justify-content: space-between;
   padding:0 1rem;
@@ -115,7 +117,7 @@ a{
   flex-direction: column;
   padding:2rem;
 }
-.link-container a{
+.link-container a, .footer-link-container a{
   padding:1rem;
   background-color: var(--clr-ltst);
   border-top:2px solid var(--clr-lt)
@@ -130,6 +132,7 @@ a{
 .social-inf0>*{
  filter: invert(76%) sepia(40%) saturate(316%) hue-rotate(168deg) brightness(102%) contrast(91%)!important;
 }
+
 
 /* HeroSection */
 #hero-img1{
@@ -166,8 +169,12 @@ height:calc(100%-15px);
 .primary #right-arrow:hover{
   color:black;
 }
+.primary #right-arrow{
+  filter:invert(100%) sepia(0%) saturate(7497%) hue-rotate(174deg) brightness(103%) contrast(102%);
+
+}
 .btn{
-  padding:1.5rem 2.5rem;
+  padding:1.2rem 2.5rem;
   border-radius:.3rem;
   border:none;
   font-weight:bolder;
@@ -204,19 +211,20 @@ height:calc(100%-15px);
   color:var(--clr-ltst);
 }
 /* Skills Section */
-.skills-section{
+.skills-section, .skills-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .circle{
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width:60%;
-  height:11rem;
+  width:10rem;
+  height:10rem;
   background-color: var(--clr-lt);
 }
 .skills-item{
@@ -293,4 +301,116 @@ input:focus, textarea:focus{
 }
 .contact .btn #right-arrow{
    filter:invert(100%) sepia(0%) saturate(7497%) hue-rotate(174deg) brightness(103%) contrast(102%);
+}
+/* Footer */
+.footer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link-container{
+  display:flex;
+  flex-direction: column;
+}
+.footer-link-container a{
+  width:95vw;
+  text-align: center;
+}
+.footer span{
+  width:80vw;
+  padding:0 2rem;
+  justify-content: space-between;
+}
+/* Media queries global*/
+
+
+/* Navbar media queries */
+@media screen and (min-width:768px){
+  nav{
+    padding:2rem;
+  }  
+  nav .btn{
+      /* display:block; */
+      margin-left:auto;
+    }
+}
+/* Hero media queries */
+@media screen and (min-width:768px){
+  .hero-section{
+    height:30vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text{
+    position:absolute;
+    width:50%;
+    left:1rem;
+    
+  }
+  #hero-img1{
+    width:50%;
+    position:absolute;
+    right:1rem;
+    top:-7rem;
+  }
+}
+/* Skills media queries */
+@media screen and (min-width:768px){
+    .skills-container{
+      flex-direction: row;
+      width:70%;
+      flex-wrap: wrap;
+      gap:1rem;
+    }
+
+}
+/* About me media queries*/
+@media screen and (min-width:768px){
+  #about-img{
+    width:80vw;
+    margin-top:3rem;
+    margin-left:13%;
+  }
+}
+/* My Projects media queries*/
+@media screen and (min-width:768px){
+  .project-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .project{
+    width:38%;
+  }
+}
+/* Footer media queries */
+@media screen and (min-width:768px){
+    .footer{
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: space-between;
+    }
+    .contact-info, .footer-link-container{
+      width:50%;
+    }
+    
+    .contact-info span, {
+      width:83%;
+      align-items: center;
+    }
+    .footer-link-container{
+      margin-top:4rem;
+    }
+    .footer-link-container a{
+      width:90%;
+    }
+    .social-info{
+      margin-left:1rem;
+    }
 }
