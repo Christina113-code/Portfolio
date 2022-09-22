@@ -52,7 +52,14 @@ const Navbar = () => {
           <a id="logo" className="navbar-img" href="/">
             Christina
           </a>
-          <Button primary={true} text="Resume"/>
+          <div className="top-navlinks">
+            <a href="/">Home</a>
+            <a href="/">Skills</a>
+            <a href="/">About Me</a>
+            <a href="/">Portfolio</a>
+            <a href="/">Contact Me</a>
+          </div>
+          <Button secondary={true} text="Resume"/>
           <img
             id="menu"
             className="navbar-img"

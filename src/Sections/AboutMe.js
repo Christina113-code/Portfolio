@@ -5,6 +5,7 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <img id="about-img"src={img} alt ="pic of me"/>
+      <div className='about-text'>
       <h2>A Little Bit About Me</h2>
       <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adipiscing
       </p>
@@ -14,6 +15,8 @@ const AboutMe = () => {
         <li>lorem</li>
       </ul>
       <Button secondary={true} text="Resume"/>
+      </div>
+      
 
     </div>
   )

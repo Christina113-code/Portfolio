@@ -17,6 +17,10 @@ const Projects = () => {
             <a href="/"><img alt="blah"src={img}/></a>
             <a href="/">Project 1</a>
           </div>
+          <div className="project">
+            <a href="/"><img alt="blah"src={img}/></a>
+            <a href="/">Project 1</a>
+          </div>
       </div>
     </div>
   )
