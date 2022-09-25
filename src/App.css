@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Montserrat&family=Roboto&family=Space+Mono&display=swap');
-
+html, *{
+  scroll-behavior: smooth;
+}
 :root{
   --ff-1: 'Space Grotesk', sans-serif;
   --ff-2:'Roboto', sans-serif;

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer">
 
-             <div className="contact-info">
+             <div className="contact-info" id="contact">
               <h2>Contact Info</h2>
             <span>
               <img src={location} alt="location" id="location" />
@@ -25,11 +25,11 @@ const Footer = () => {
             </span>
           </div>
           <div className="footer-link-container">
-            <a href="/">Home</a>
-            <a href="/">Skills</a>
-            <a href="/">About Me</a>
-            <a href="/">Portfolio</a>
-            <a href="/">Contact Me</a>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#contact">Contact Me</a>
           </div>
         
           <div className="social-info">

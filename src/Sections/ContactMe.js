@@ -3,7 +3,7 @@ import Button from '../Components/Button'
 
 const ContactMe = () => {
   return (
-    <div className="contact section">
+    <div className="contact section" id='contact'>
       <h2>Get in Touch</h2>
       <form>
         <input type="text" placeholder="Your Name" name="name"/>

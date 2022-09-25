@@ -2,7 +2,7 @@ import React from 'react'
 import img from '../imgs/heroimg2.svg';
 const Projects = () => {
   return (
-    <div className="projects section">
+    <div className="projects section" id='projects'>
       <h2>My Projects</h2>
       <div className="project-container">
           <div className="project">

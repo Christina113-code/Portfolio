@@ -20,11 +20,11 @@ const Navbar = () => {
             <img onClick={() => setOpen(false)} src={x} alt="X" id="x" />
           </div>
           <div className="link-container">
-            <a href="/">Home</a>
-            <a href="/">Skills</a>
-            <a href="/">About Me</a>
-            <a href="/">Portfolio</a>
-            <a href="/">Contact Me</a>
+          <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#contact">Contact Me</a>
           </div>
           <div className="contact-info">
             <h2>Contact Info</h2>
@@ -48,16 +48,16 @@ const Navbar = () => {
           </div>
         </div>
       ) : (
-        <nav>
+        <nav id="home">
           <a id="logo" className="navbar-img" href="/">
             Christina
           </a>
           <div className="top-navlinks">
-            <a href="/">Home</a>
-            <a href="/">Skills</a>
-            <a href="/">About Me</a>
-            <a href="/">Portfolio</a>
-            <a href="/">Contact Me</a>
+          <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#contact">Contact Me</a>
           </div>
           <Button secondary={true} text="Resume"/>
           <img

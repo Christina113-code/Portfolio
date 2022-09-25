@@ -6,7 +6,7 @@ import js from '../imgs/js.svg';
 
 const SkillsSection = () => {
   return (
-    <div className="skills-section section">
+    <div className="skills-section section" id='skills'>
       <h2>My Skills</h2>
       <div className="skills-container">
         <div className="skills-item">
