@@ -285,10 +285,16 @@ height:calc(100%-15px);
 }
 .projects img{
   width:100%;
+  transition:.3s;
 }
+.projects img:hover{
+  transform:scale(1.1);
+}
+
 .project{
   padding:2rem;
 }
+
 .project a{
   display:block;
  padding-top:1rem;
@@ -363,8 +369,9 @@ input:focus, textarea:focus{
 /* TABLET MEDIA QUERIES */
 /* Media queries global*/
 @media screen and (min-width: 768px){
- 
-  
+  .resume-btn{
+    display:none;
+  }
   h2{
     font-size:2.5rem;
     
@@ -560,6 +567,10 @@ input:focus, textarea:focus{
   a:hover{
     color:gray;
     transition:.3s;
+  }
+  .resume-btn{
+    display:block;
+    margin-left:auto;
   }
 
 }
