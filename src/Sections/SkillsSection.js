@@ -3,6 +3,9 @@ import html from '../imgs/html.svg'
 import react_logo from '../imgs/react.svg'
 import css from '../imgs/css.svg';
 import js from '../imgs/js.svg';
+import python from '../imgs/python.svg';
+import java from '../imgs/java.svg';
+
 
 const SkillsSection = () => {
   return (
@@ -32,6 +35,18 @@ const SkillsSection = () => {
             <img src={js} alt="react-logo" />
           </div>
           <p>Javascript</p>
+        </div>
+        <div className="skills-item">
+          <div className="circle">
+            <img className="skill-img"src={java} alt="react-logo" />
+          </div>
+          <p>Java</p>
+        </div>
+        <div className="skills-item">
+          <div className="circle">
+            <img className="skill-img"src={python} alt="react-logo" />
+          </div>
+          <p>Python</p>
         </div>
       </div>
      
