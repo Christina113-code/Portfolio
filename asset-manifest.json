@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3b5c04a8.css",
+    "main.js": "/portfolio/static/js/main.06a9e881.js",
+    "static/media/tip-calc-screenshot.png": "/portfolio/static/media/tip-calc-screenshot.0dc4da389b5bd716fdaa.png",
+    "static/media/quote.png": "/portfolio/static/media/quote.40c5e4b0fc1da0c80bc0.png",
+    "static/media/html.png": "/portfolio/static/media/html.7c0df23888bf44e1ee21.png",
+    "static/media/heroimg1.svg": "/portfolio/static/media/heroimg1.2470d466e288fdb16ee69876f85b4ad8.svg",
+    "static/media/heroimg2.svg": "/portfolio/static/media/heroimg2.3ed22d651941c7667aac77ebd8f38d6b.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.3654ca6f30b975f1d1080b8abddc20ea.svg",
+    "static/media/java.svg": "/portfolio/static/media/java.8a3be8e69f2e27822dfa6c9190292350.svg",
+    "static/media/python.svg": "/portfolio/static/media/python.e05cbea9594ff51f35d2590459affe40.svg",
+    "static/media/js.svg": "/portfolio/static/media/js.4f5c2c20b9e3247344caa0e513dff5b3.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/x.svg": "/portfolio/static/media/x.9552a63af3cf82a4d482a84d9d679ba9.svg",
+    "static/media/phone.svg": "/portfolio/static/media/phone.55170e2f932be4f1ac6352fe1c9b546f.svg",
+    "static/media/menu.svg": "/portfolio/static/media/menu.27df51a0dfd075e2ddf310b339f1fcdb.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.8d2037a4115ce1e9a8d8d36a6ead71ec.svg",
+    "static/media/location.svg": "/portfolio/static/media/location.2f15e69d8f507aa4c23ae9c3a5ce2290.svg",
+    "static/media/rightarrow.svg": "/portfolio/static/media/rightarrow.19bf4ce522c19449cb1fa823d47df07b.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.d0b97611714bbc6f350954c629c2a6ba.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.033b1683dcd2583d7ff2c6ce56160dac.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.ecd7ac4d9a32c5171db99a89d5b71a73.svg",
+    "main.3b5c04a8.css.map": "/portfolio/static/css/main.3b5c04a8.css.map",
+    "main.06a9e881.js.map": "/portfolio/static/js/main.06a9e881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b5c04a8.css",
+    "static/js/main.06a9e881.js"
+  ]
+}
